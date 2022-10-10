@@ -1,0 +1,131 @@
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.nome {
+    Color: #0d6efd; 
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32.5px;
+}
+
+.wall {
+    background: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/01/Cyber-Wallpaper-4k.png?fit=5120%2C2160&ssl=1) no-repeat;
+    background-size: cover;
+    padding-top:5rem;
+    padding-bottom: 11rem;
+}
+
+
+.img-down {
+    background: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/01/Cyber-Wallpaper-4k.png?fit=5120%2C2160&ssl=1) no-repeat;
+    max-width: 100%;
+    position: relative;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+}
+
+
+.centralizar {
+    justify-content: center;
+    display: flex;  
+}
+
+.gif-1{
+    width: 50%;
+    height: 25%;
+
+}
+
+.cen-1 {
+    padding-left: 1rem;
+}
+
+.central-1 {
+    justify-content: center;
+
+}
+.cor1 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: antiquewhite;
+}
+.moon{
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dezue1r-b5c04c89-3cd3-4013-aa14-648b2b3b43fa.png/v1/fill/w_1280,h_1543,strp/moon_knight_png_by_metropolis_hero1125_dezue1r-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU0MyIsInBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGV6dWUxci1iNWMwNGM4OS0zY2QzLTQwMTMtYWExNC02NDhiMmIzYjQzZmEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hv8emsMHLeznzbpVqu-ESqzdVnEsJdOuLIBP-q9HVaU);
+    background-size: cover;
+    opacity: 95%;
+    
+}
+.StartHead {
+    font-size: 10px;
+    color: silver;
+}
+.pad-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pad-caixa{
+    padding-top: 30px;
+}
+.inline{
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.subline-none {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.expan-1 {
+    padding-right: 5rem;
+}
+
+.tonel {
+    max-width: 1440px;
+    height: 50px;
+}
+.tonel-img-2 {
+    max-height:200px;  
+    width: 210px; 
+}
+
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 5.5rem;
+}
+
+.box-pad {
+    padding: 4rem;
+    box-sizing: border-box;
+}
+
+.box-shadow {
+    box-shadow: 6px 5px 1px -1px rgba(176,176,176,0.52);
+    max-width: 12rem;
+    border-style:ridge;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.destaque {
+    font-size: small;
+    font-style: italic;
+}
+
+.showcase .showcase-text {
+    padding: 7rem;
+}
+
+.mb-7{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
