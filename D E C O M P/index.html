@@ -15,7 +15,7 @@
     <header class="navbar navbar-dark bg-white">
         <div class="container">
             <a class="navbar-brand" >
-                <img src="SNC.gif" width="50" height="50" alt="Logo" align="left">
+                <img src="visual/SNC.gif" width="50" height="50" alt="Logo" align="left">
                 <h3 class="nome"> O H K E N </h3>
             </a>
             <a href="#teste">
@@ -83,12 +83,12 @@
                 <div class="col-lg-6 my-auto showcase-text bg-light moon">
                     <br>
                     <video controls width="360px" height="300px">
-                        <source src="MARC.mp4" type="video/mp4">
+                        <source src="visual/MARC.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-lg-6 order-lg-1 ">
                     <div class="centralizar" style="padding-top: 75px">
-                        <img src="BIMO.gif" class="img-fluid">
+                        <img src="visual/BIMO.gif" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1 ">
                     <div class="centralizar">
-                        <img src="BMO1.gif" class="img-fluid gif-2">
+                        <img src="visual/BMO1.gif" class="img-fluid gif-2">
                     </div>
                 </div>
             </div>
@@ -163,13 +163,15 @@
             <div class="row col-6">
                 <div class="col" id="teste">
                         <h2 style="color: white; font-style: unset"> Envie seu email para o support </h2>
-                    <div class="centralizar">
-                        <input type="text" class="form-control" placeholder="Meu Email é..." aria-label="Username" aria-describedby="basic-addon1">
-                        <div class="cen-1">
-                            <button class="btn btn-primary"> 
-                                <i class="fa-solid fa-circle-chevron-up"></i>
-                            </button>
-                        </div>
+                    <div style="display: flex; justify-content: center;">
+                        <!-- <form method="post" action="javascript:enviar()" > -->
+                            <input id="email" type="text" class="form-control" placeholder="Meu Email é..." aria-label="Username" aria-describedby="basic-addon1">
+                            <div class="cen-1">
+                                <button class="btn btn-primary" onclick="enviar()"> 
+                                    <i class="fa-solid fa-circle-chevron-up"></i>
+                                </button>
+                            </div>
+                        <!-- </form> -->
                     </div>
                 </div>
             </div>
@@ -193,6 +195,6 @@
             </div>
         </div>
     </footer>
-
+<script src="Email.js"></script>
 </body>
 </html>
